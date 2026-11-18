@@ -7,9 +7,10 @@ The original template is preserved on branch and annotated tag 1.0.0:
 fcea9e53485f356f96fb64cf6cd692f77513d6bd
 Copyright (c) 2021 JackieTang.
 
-Geo tools, plugins, localization resources, SVG icons, the source brand mark,
-PRISM theme token snapshot and Element Plus style adapters are retained or
-adapted from that source. docs/migration-manifest.json records Geo paths.
+Geo tools, plugins, localization resources, UI action SVG icons, PRISM theme
+token snapshot and Element Plus style adapters are retained or adapted from
+that source. Product brand icons belong to Cesium Workbench (JTLab).
+docs/migration-manifest.json records Geo paths.
 
 Third-party dependencies and remotely hosted sample data retain their own
 licenses, attributions and service terms. No blanket redistribution grant for

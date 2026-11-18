@@ -44,15 +44,12 @@ defineEmits<{ action: [] }>()
   height: 66px;
   display: grid;
   place-items: center;
-  border: 1px solid var(--geo-line-strong);
-  border-radius: 20px;
-  background: var(--geo-surface-strong);
+  border-radius: 15.2px;
   box-shadow: var(--geo-shadow);
 }
 
 .geo-load-state__mark :deep(.cyber-logo) {
-  --cyber-logo-mark-size: 38px;
-  --brand-accent: var(--geo-accent);
+  --cyber-logo-mark-size: 66px;
 }
 
 .geo-load-state small {

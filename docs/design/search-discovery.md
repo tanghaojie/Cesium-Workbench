@@ -1,7 +1,7 @@
 ---
 title: Search and AI discovery after repository rename
 status: active
-updated: 2026-10-21
+updated: 2026-11-18
 ---
 
 # Search and AI discovery after repository rename
@@ -14,9 +14,9 @@ The canonical source is tanghaojie/Cesium-Workbench; the organization repository
 
 ## Boundaries and interfaces
 
-public/about/ owns static product information and shared visual assets. Its HTML contains visible, source-backed descriptions, supported data formats, feature groups, setup, factual Q&A, limitations and repository/documentation links without JavaScript or WebGL. A lightweight atlas/editorial visual style uses local CSS and an illustrative globe, without presenting it as an application screenshot.
+public/about/ owns static product information and shared visual assets. Its HTML contains visible, source-backed descriptions, supported data formats, feature groups, setup, factual Q&A, limitations and repository/documentation links without JavaScript or WebGL. The masthead uses the standalone Cesium Workbench product icon (/favicon.svg); a lightweight atlas/editorial visual style uses local CSS and an illustrative globe, without presenting it as an application screenshot.
 
-index.html and geo.html keep the same Geo runtime. Both declare the root canonical; geo.html is excluded from sitemap.xml as a duplicate entry. Metadata includes descriptive title/description, robots preview permissions, Open Graph and Twitter cards with an actual local preview PNG. The default application bootstrap preserves the HTML title; an explicitly configured VITE_APP_NAME can still override it.
+index.html and geo.html keep the same Geo runtime. Both declare the root canonical; geo.html is excluded from sitemap.xml as a duplicate entry. Both entries and the static product pages link /favicon.svg, multi-size /favicon.ico (16/32/48) and 180 × 180 /apple-touch-icon.png generated from the standalone product icon. Metadata includes descriptive title/description, robots preview permissions, Open Graph and Twitter cards with an actual local preview PNG. The default application bootstrap preserves the HTML title; an explicitly configured VITE_APP_NAME can still override it.
 
 GeoWorkspacePage accepts an optional projectInfoUrl from the app assembly. It renders a localized native link to product information while normal workspace chrome is visible, and hides it in clean or framed capture presentation. Geo contains no SEO policy, host assumptions or discovery-module imports. The Viewer clock, rendering, capture contracts and browser storage are unchanged.
 

@@ -1,3 +1,5 @@
+<img src="public/favicon.svg" width="72" height="72" alt="Cesium Workbench" />
+
 # Cesium Workbench · Vue 3 + CesiumJS 三维地球工作台
 
 **AI 友好的开源三维地球工作台，基于 Vue 3、TypeScript 与 CesiumJS。**
