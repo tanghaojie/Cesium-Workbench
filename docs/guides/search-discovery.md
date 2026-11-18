@@ -10,6 +10,7 @@
 - /about/en/：英文静态项目介绍，与中文版互相声明 hreflang。
 - /sitemap.xml：根地址和两份介绍页的规范 URL。
 - /robots.txt：允许抓取并公布 sitemap 地址。
+- /favicon.svg、/favicon.ico（16/32/48 多尺寸）与 /apple-touch-icon.png（180 × 180）：Cesium Workbench 独立产品专属图标。
 - /about/social-preview.png：1200 × 630 分享预览；SVG 源文件随仓库保存。
 
 Vercel 若部署相同源码，也会声明对应 GitHub Pages URL 为 canonical。它是规范地址提示，不是服务器跳转，也不能保证搜索引擎一定采用。根地址始终保留现有使用流程，关于项目的链接在普通工作台界面显示，净画面和画幅预览中隐藏。

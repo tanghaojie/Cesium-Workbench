@@ -1,7 +1,7 @@
 ---
 title: Standalone Geo workbench
 status: active
-updated: 2026-10-20
+updated: 2026-11-18
 ---
 
 # Standalone Geo workbench
@@ -16,7 +16,7 @@ src/modules/geo owns the Viewer runtime, Cesium tools, compile-time plugins, con
 
 The app mounts modules/geo/pages/GeoWorkspacePage.vue directly. The page accepts an optional projectInfoUrl from app assembly; its localized native information link hides with clean/framed capture presentation. Static project information and search metadata are owned by [search discovery](search-discovery.md). No router is installed; source-only registerViews.ts is excluded. Geo plugins are assembled by geo.plugins.ts; plugins collaborate through core capability/event/disposable contracts. Tools receive real Cesium objects as explicit parameters and do not import the app or UI adapters.
 
-Geo depends on shared/localization/localization and localization.resource, shared/components/AppIcon.vue and AppLogo.vue. Those shared adapters do not import Geo; bootstrap registers the Geo localization resource. Theme and icon assets are local snapshots, with source attribution. There are no workspace:* dependencies or imports into Cyber-Sight.
+Geo depends on shared/localization/localization and localization.resource, shared/components/AppIcon.vue and AppLogo.vue. Those shared adapters do not import Geo; bootstrap registers the Geo localization resource. AppLogo.vue renders the standalone Cesium Workbench product mark with instance-scoped SVG definitions; theme and UI action icon assets remain local snapshots, with source attribution. There are no workspace:* dependencies or imports into Cyber-Sight.
 
 ## Data flow and lifecycle
 

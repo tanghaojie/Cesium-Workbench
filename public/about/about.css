@@ -59,14 +59,10 @@ footer {
   text-decoration: none;
 }
 .brand-mark {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 42px;
   height: 42px;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  font: 500 16px var(--serif);
-  letter-spacing: -0.08em;
+  flex: 0 0 auto;
 }
 nav {
   display: flex;

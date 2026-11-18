@@ -20,3 +20,4 @@ The original template is preserved by branch and annotated tag 1.0.0 at fcea9e53
 
 - [Automatic delivery design](design/automatic-delivery.md): owner-authorized PRs merge after strict verify without mandatory human approval.
 - [Completed automatic delivery plan](archive/plans/2026-10-21-automatic-delivery.md), [AI log](archive/ai-logs/2026-10-21-automatic-delivery.md): settings read back; PR #10 waited for verify and merged automatically.
+- [Completed brand icon plan](archive/plans/2026-11-18-brand-icon.md), [AI log](archive/ai-logs/2026-11-18-brand-icon.md): standalone Cesium Workbench IP icon adopted across favicons, touch icon, AppLogo, static product pages and README.

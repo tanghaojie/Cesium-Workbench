@@ -1,3 +1,5 @@
+<img src="public/favicon.svg" width="72" height="72" alt="Cesium Workbench" />
+
 # Cesium Workbench · Vue 3, TypeScript & CesiumJS
 
 **An open-source 3D geospatial workbench for exploring spatial data and creating camera-shot visualizations.**
